@@ -2,7 +2,7 @@ node {
   checkout scm
   properties(
     parameters([
-      string(defaultValue: 'John snow', description: 'Who knows nothing?' name:'NAME')
+      string(defaultValue: 'John snow', description: 'Who knows nothing?', name:'NAME')
     ])
   )
 
